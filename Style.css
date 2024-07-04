@@ -1,0 +1,228 @@
+body{
+    margin:0px;
+    padding: 0px;
+    background-image: url("Asserts/Grad.png");
+    background-size: cover;
+}
+
+.Student-Details{
+    margin: 40px 400px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 20px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Student-Details h1{
+    text-align: center;
+    color: darkblue;
+}
+
+.Student-Details form{
+    display: table;
+    margin: 25px 50px;
+    padding: 15px;
+}
+
+.Student-Details p{
+    display: table-row;
+}
+
+.Student-Details label{
+    display: table-cell;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Student-Details input{
+    display: table-cell;
+    padding: 15px;
+    width: 250px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.Student-Details select{
+    display: table-cell;
+    width: 282px;
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.Student-Details option{
+    color: black;
+    background-color: white;
+}
+
+.Student-Details input:focus{
+    padding: 20px;
+    background-color: rgb(234, 223, 223);
+}
+
+.Student-Details select:focus{
+    background-color: rgb(234, 223, 223);
+}
+
+.butt{
+    margin-left: 160px;
+}
+
+.sub{
+    background-color:darkgreen;
+    padding: 10px;
+    width: 100px;
+    border: transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.sub:hover{
+    background-color: darkgoldenrod;
+}
+
+.can{
+    background-color: rgb(6, 6, 250);
+    padding: 10px;
+    width: 100px;
+    border: transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.can:hover{
+    background-color: grey;
+}
+
+/*-------Media Queries-------*/
+@media (min-width:375px) and (max-width:1200px) {
+    body{
+        margin:0px;
+        padding: 0px;
+        background-image: url("Asserts/Grad.png");
+        background-size: cover;
+    }
+    
+    .Student-Details{
+        margin: 40px 400px;
+        border: 1px solid grey;
+        border-radius: 50px;
+        padding: 100px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+    .Student-Details h1{
+        text-align: center;
+        color: darkblue;
+    }
+    
+    .Student-Details form{
+        display: table;
+        margin: 25px 50px;
+        padding: 15px;
+    }
+    
+    .Student-Details p{
+        display: table-row;
+    }
+    
+    .Student-Details label{
+        display: table-cell;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .Student-Details input{
+        display: table-cell;
+        padding: 15px;
+        width: 250px;
+        border: 1px solid grey;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    
+    .Student-Details select{
+        display: table-cell;
+        width: 282px;
+        padding: 15px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    
+    .Student-Details option{
+        color: black;
+        background-color: white;
+    }
+    
+    .Student-Details input:focus{
+        padding: 20px;
+        background-color: rgb(234, 223, 223);
+    }
+    
+    .Student-Details select:focus{
+        background-color: rgb(234, 223, 223);
+    }
+    
+    .butt{
+        margin-left: 160px;
+    }
+    
+    .sub{
+        background-color:darkgreen;
+        padding: 10px;
+        width: 100px;
+        border: transparent;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    
+    .sub:hover{
+        background-color: darkgoldenrod;
+    }
+    
+    .can{
+        background-color: rgb(6, 6, 250);
+        padding: 10px;
+        width: 100px;
+        border: transparent;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    
+    .can:hover{
+        background-color: grey;
+    }
+
+}
