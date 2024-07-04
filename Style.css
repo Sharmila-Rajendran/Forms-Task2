@@ -98,6 +98,7 @@ body{
 .can{
     background-color: rgb(6, 6, 250);
     padding: 10px;
+    margin: 10px;
     width: 100px;
     border: transparent;
     border-radius: 20px;
@@ -112,117 +113,91 @@ body{
 }
 
 /*-------Media Queries-------*/
-@media (min-width:375px) and (max-width:1200px) {
-    body{
-        margin:0px;
-        padding: 0px;
-        background-image: url("Asserts/Grad.png");
-        background-size: cover;
-    }
-    
+@media (max-width:1200px) {
+
     .Student-Details{
-        margin: 40px 400px;
-        border: 1px solid grey;
-        border-radius: 50px;
-        padding: 100px;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        -ms-border-radius: 50px;
-        -o-border-radius: 50px;
+        margin:20px 100px;
+        width: 70%;
     }
-    .Student-Details h1{
-        text-align: center;
-        color: darkblue;
+}
+
+@media (max-width:768px){
+
+    .Student-Details{
+        margin: 50px 140px;
+        padding: 20px;
+        width: 60%;
     }
     
     .Student-Details form{
-        display: table;
-        margin: 25px 50px;
-        padding: 15px;
+        margin: 0;
+        padding: 0px;
     }
     
-    .Student-Details p{
-        display: table-row;
-    }
     
     .Student-Details label{
-        display: table-cell;
-        padding: 20px;
-        font-size: 20px;
-        font-weight: bold;
+        padding: 15px;
+        font-size: 18px;
     }
     
     .Student-Details input{
-        display: table-cell;
-        padding: 15px;
-        width: 250px;
-        border: 1px solid grey;
-        border-radius: 15px;
-        -webkit-border-radius: 15px;
-        -moz-border-radius: 15px;
-        -ms-border-radius: 15px;
-        -o-border-radius: 15px;
+        width: 80%;
+        padding: 10px;
     }
     
     .Student-Details select{
-        display: table-cell;
-        width: 282px;
-        padding: 15px;
-        border-radius: 15px;
-        -webkit-border-radius: 15px;
-        -moz-border-radius: 15px;
-        -ms-border-radius: 15px;
-        -o-border-radius: 15px;
-    }
-    
-    .Student-Details option{
-        color: black;
-        background-color: white;
-    }
-    
-    .Student-Details input:focus{
-        padding: 20px;
-        background-color: rgb(234, 223, 223);
-    }
-    
-    .Student-Details select:focus{
-        background-color: rgb(234, 223, 223);
+        width: 90%;
+        padding: 10px;
     }
     
     .butt{
-        margin-left: 160px;
+        margin-left: 150px;
     }
     
     .sub{
-        background-color:darkgreen;
-        padding: 10px;
-        width: 100px;
-        border: transparent;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
-    
-    .sub:hover{
-        background-color: darkgoldenrod;
+        width:45%;
     }
     
     .can{
-        background-color: rgb(6, 6, 250);
-        padding: 10px;
-        width: 100px;
-        border: transparent;
-        border-radius: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-    }
-    
-    .can:hover{
-        background-color: grey;
+        width: 45%;
+        margin: 5px;
     }
 
+}
+
+@media (max-width:480px){
+    .Student-Details{
+        margin: 20px 100px 20px 100px;
+        padding: 10px;
+    }
+
+    .Student-Details h1{
+        font-size: 24px;
+    }
+
+    .Student-Details label{
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .Student-Details input{
+        padding: 8px;
+    }
+
+    .Student-Details select{
+        padding: 8px;
+    }
+
+    .butt{
+        margin-left: 50px;
+    }
+
+    .sub{
+        width: 45%;
+    }
+
+    .can{
+        width: 45%;
+        margin: 5px;
+    }
 }
